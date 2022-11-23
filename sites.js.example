@@ -1,0 +1,10 @@
+export const SITES = new Map([
+  // Use this as a template for creating your own.
+  [
+    "google",
+    new Map([
+      ["title", 'Open "%s" in Google'],
+      ["url", "https://www.google.com/search?q=%s"],
+    ]),
+  ],
+]);
